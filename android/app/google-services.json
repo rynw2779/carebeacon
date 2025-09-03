@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "921358097301",
+    "firebase_url": "https://carebeaconbackend-default-rtdb.firebaseio.com",
+    "project_id": "carebeaconbackend",
+    "storage_bucket": "carebeaconbackend.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921358097301:android:2a6d57db7e6d3eb96cb49c",
+        "android_client_info": {
+          "package_name": "com.anonymous.carebeacon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVF8BDpMkfx6ai3gK0lrelpEeQoe2HzKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

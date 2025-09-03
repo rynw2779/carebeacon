@@ -1,0 +1,287 @@
+{
+  "chats": {
+    "Aviui43IY1fiLR1DdaC1DJWLrKC3_BJ5KEEFuTIYwSL2bfAfM8vy7omy1": {
+      "lastMessage": {
+        "readBy": {
+          "Aviui43IY1fiLR1DdaC1DJWLrKC3": true
+        },
+        "senderId": "Aviui43IY1fiLR1DdaC1DJWLrKC3",
+        "text": "Hi",
+        "timestamp": 1755029231270
+      },
+      "messages": {
+        "-OXOWG86xKo4NUtdBqar": {
+          "readBy": {
+            "0": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+            "Aviui43IY1fiLR1DdaC1DJWLrKC3": true
+          },
+          "senderId": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+          "text": "Hey NT!",
+          "timestamp": 1754922291837
+        },
+        "-OXPXzOLmoK5gozEEUQB": {
+          "readBy": {
+            "0": "Aviui43IY1fiLR1DdaC1DJWLrKC3",
+            "-OXUonbS7JCrvrKHnrBe": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+            "Aviui43IY1fiLR1DdaC1DJWLrKC3": true
+          },
+          "senderId": "Aviui43IY1fiLR1DdaC1DJWLrKC3",
+          "text": "Howdy hey!",
+          "timestamp": 1754939520685
+        },
+        "-OXUtCO3PvEOY2haHcXb": {
+          "readBy": {
+            "Aviui43IY1fiLR1DdaC1DJWLrKC3": true
+          },
+          "senderId": "Aviui43IY1fiLR1DdaC1DJWLrKC3",
+          "text": "Hi",
+          "timestamp": 1755029231223
+        }
+      },
+      "participants": {
+        "Aviui43IY1fiLR1DdaC1DJWLrKC3": true,
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true
+      },
+      "unread": {
+        "Aviui43IY1fiLR1DdaC1DJWLrKC3": 0,
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": 0
+      }
+    },
+    "Aviui43IY1fiLR1DdaC1DJWLrKC3_BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02": {
+      "lastMessage": {
+        "readBy": {
+          "Aviui43IY1fiLR1DdaC1DJWLrKC3": true
+        },
+        "senderId": "Aviui43IY1fiLR1DdaC1DJWLrKC3",
+        "text": "Hello??",
+        "timestamp": 1755029220435
+      },
+      "messages": {
+        "-OXUeXWKt_aL4Lz0VRL1": {
+          "readBy": {
+            "0": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+            "Aviui43IY1fiLR1DdaC1DJWLrKC3": true,
+            "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true,
+            "LAw8PKNkAKbVwQcW3kxUYbNSeF02": true
+          },
+          "senderId": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+          "text": "Hello group!",
+          "timestamp": 1755029200435
+        },
+        "-OXUtCO3PvEOY2haHcXb": {
+          "readBy": {
+            "Aviui43IY1fiLR1DdaC1DJWLrKC3": true
+          },
+          "senderId": "Aviui43IY1fiLR1DdaC1DJWLrKC3",
+          "text": "Hello??",
+          "timestamp": 1755029220435
+        }
+      },
+      "participants": {
+        "Aviui43IY1fiLR1DdaC1DJWLrKC3": true,
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true,
+        "JRU4BTm5oAPRrZxtPcqWF90jmFN2": true,
+        "LAw8PKNkAKbVwQcW3kxUYbNSeF02": true
+      },
+      "unread": {
+        "Aviui43IY1fiLR1DdaC1DJWLrKC3": 0,
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": 0,
+        "JRU4BTm5oAPRrZxtPcqWF90jmFN2": 0,
+        "LAw8PKNkAKbVwQcW3kxUYbNSeF02": 0
+      }
+    },
+    "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02_dR7aH9LLjlbG9R8xr4GkoODD1fP2_xe4zDugcyCSaO6Mdz2ujfnP0qBa2": {
+      "lastMessage": {
+        "readBy": {
+          "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true
+        },
+        "senderId": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+        "text": "Test message",
+        "timestamp": 1755029231270
+      },
+      "messages": {
+        "-OXUtCO3PvEOY2haHcXb": {
+          "readBy": {
+            "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true
+          },
+          "senderId": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+          "text": "Test message",
+          "timestamp": 1755029231223
+        }
+      },
+      "participants": {
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true,
+        "JRU4BTm5oAPRrZxtPcqWF90jmFN2": true,
+        "LAw8PKNkAKbVwQcW3kxUYbNSeF02": true,
+        "dR7aH9LLjlbG9R8xr4GkoODD1fP2": true,
+        "xe4zDugcyCSaO6Mdz2ujfnP0qBa2": true
+      },
+      "unread": {
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": 0,
+        "JRU4BTm5oAPRrZxtPcqWF90jmFN2": 0,
+        "LAw8PKNkAKbVwQcW3kxUYbNSeF02": 0,
+        "dR7aH9LLjlbG9R8xr4GkoODD1fP2": 0,
+        "xe4zDugcyCSaO6Mdz2ujfnP0qBa2": 0
+      }
+    },
+    "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_LAw8PKNkAKbVwQcW3kxUYbNSeF02": {
+      "lastMessage": {
+        "readBy": {
+          "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true
+        },
+        "senderId": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+        "text": "Hi",
+        "timestamp": 1755029231270
+      },
+      "messages": {
+        "-OXUtCO3PvEOY2haHcXb": {
+          "readBy": {
+            "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true
+          },
+          "senderId": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+          "text": "Hi",
+          "timestamp": 1755029231223
+        }
+      },
+      "participants": {
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true,
+        "LAw8PKNkAKbVwQcW3kxUYbNSeF02": true
+      },
+      "unread": {
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": 0,
+        "LAw8PKNkAKbVwQcW3kxUYbNSeF02": 0
+      }
+    },
+    "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_dR7aH9LLjlbG9R8xr4GkoODD1fP2": {
+      "lastMessage": {
+        "readBy": {
+          "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true
+        },
+        "senderId": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+        "text": "Hi",
+        "timestamp": 1755029231270
+      },
+      "messages": {
+        "-OXUtCO3PvEOY2haHcXb": {
+          "readBy": {
+            "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true
+          },
+          "senderId": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+          "text": "Hi",
+          "timestamp": 1755029231223
+        }
+      },
+      "participants": {
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true,
+        "dR7aH9LLjlbG9R8xr4GkoODD1fP2": true
+      },
+      "unread": {
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": 0,
+        "dR7aH9LLjlbG9R8xr4GkoODD1fP2": 0
+      }
+    },
+    "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_xe4zDugcyCSaO6Mdz2ujfnP0qBa2": {
+      "lastMessage": {
+        "readBy": {
+          "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true
+        },
+        "senderId": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+        "text": "Hi",
+        "timestamp": 1755029231270
+      },
+      "messages": {
+        "-OXUtCO3PvEOY2haHcXb": {
+          "readBy": {
+            "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true
+          },
+          "senderId": "BJ5KEEFuTIYwSL2bfAfM8vy7omy1",
+          "text": "Hi",
+          "timestamp": 1755029231223
+        }
+      },
+      "participants": {
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true,
+        "xe4zDugcyCSaO6Mdz2ujfnP0qBa2": true
+      },
+      "unread": {
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": 0,
+        "xe4zDugcyCSaO6Mdz2ujfnP0qBa2": 0
+      }
+    }
+  },
+  "user_chats": {
+    "Aviui43IY1fiLR1DdaC1DJWLrKC3": {
+      "Aviui43IY1fiLR1DdaC1DJWLrKC3_BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true,
+      "Aviui43IY1fiLR1DdaC1DJWLrKC3_BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02": true
+    },
+    "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": {
+      "Aviui43IY1fiLR1DdaC1DJWLrKC3_BJ5KEEFuTIYwSL2bfAfM8vy7omy1": true,
+      "Aviui43IY1fiLR1DdaC1DJWLrKC3_BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02": true,
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02_dR7aH9LLjlbG9R8xr4GkoODD1fP2_xe4zDugcyCSaO6Mdz2ujfnP0qBa2": true,
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_LAw8PKNkAKbVwQcW3kxUYbNSeF02": true,
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_dR7aH9LLjlbG9R8xr4GkoODD1fP2": true,
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_xe4zDugcyCSaO6Mdz2ujfnP0qBa2": true
+    },
+    "JRU4BTm5oAPRrZxtPcqWF90jmFN2": {
+      "Aviui43IY1fiLR1DdaC1DJWLrKC3_BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02": true,
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02_dR7aH9LLjlbG9R8xr4GkoODD1fP2_xe4zDugcyCSaO6Mdz2ujfnP0qBa2": true
+    },
+    "LAw8PKNkAKbVwQcW3kxUYbNSeF02": {
+      "Aviui43IY1fiLR1DdaC1DJWLrKC3_BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02": true,
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02_dR7aH9LLjlbG9R8xr4GkoODD1fP2_xe4zDugcyCSaO6Mdz2ujfnP0qBa2": true,
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_LAw8PKNkAKbVwQcW3kxUYbNSeF02": true
+    },
+    "dR7aH9LLjlbG9R8xr4GkoODD1fP2": {
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02_dR7aH9LLjlbG9R8xr4GkoODD1fP2_xe4zDugcyCSaO6Mdz2ujfnP0qBa2": true,
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_dR7aH9LLjlbG9R8xr4GkoODD1fP2": true
+    },
+    "xe4zDugcyCSaO6Mdz2ujfnP0qBa2": {
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_JRU4BTm5oAPRrZxtPcqWF90jmFN2_LAw8PKNkAKbVwQcW3kxUYbNSeF02_dR7aH9LLjlbG9R8xr4GkoODD1fP2_xe4zDugcyCSaO6Mdz2ujfnP0qBa2": true,
+      "BJ5KEEFuTIYwSL2bfAfM8vy7omy1_xe4zDugcyCSaO6Mdz2ujfnP0qBa2": true
+    }
+  },
+  "users": {
+    "5vB87yx8pDsoj8g12Ss5": {
+      "role": "unassigned"
+    },
+    "Aviui43IY1fiLR1DdaC1DJWLrKC3": {
+      "role": "nurse"
+    },
+    "BJ5KEEFuTIYwSL2bfAfM8vy7omy1": {
+      "assignedPatients": [
+        "dR7aH9LLjlbG9R8xr4GkoODD1fP2",
+        "LAw8PKNkAKbVwQcW3kxUYbNSeF02"
+      ],
+      "role": "administrator"
+    },
+    "JRU4BTm5oAPRrZxtPcqWF90jmFN2": {
+      "role": "unassigned"
+    },
+    "LAw8PKNkAKbVwQcW3kxUYbNSeF02": {
+      "assignedStaff": [
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1"
+      ],
+      "role": "patient"
+    },
+    "dR7aH9LLjlbG9R8xr4GkoODD1fP2": {
+      "assignedStaff": [
+        "BJ5KEEFuTIYwSL2bfAfM8vy7omy1"
+      ],
+      "firstName": "Eddie",
+      "lastName": "Vedder",
+      "role": "patient"
+    },
+    "ljVcpDHpN7Y5vkq7pVnlMWoF47n1": {
+      "role": "patient"
+    },
+    "s8hViel7jkNSIKUDDCneOdxnRSZ2": {
+      "role": "administrator"
+    },
+    "xe4zDugcyCSaO6Mdz2ujfnP0qBa2": {
+      "assignedPatients": [
+        "6L3h89XvukPoeCfKb5qCkPslDqy2"
+      ],
+      "role": "nurse"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "rules": {
+    "chats": {
+      "$chat_id": {
+        ".read": "(data.hasChild('participants') && data.child('participants').hasChild(auth.uid)) || (!data.exists() && $chat_id.contains(auth.uid)) || (auth.uid === $chat_id) || root.child('users').child(auth.uid).child('role').val() === 'administrator'",
+        ".write": "(newData.hasChild('participants') && newData.child('participants').hasChild(auth.uid)) || (!data.exists() && $chat_id.contains(auth.uid) && newData.hasChild('participants') && newData.child('participants').hasChild(auth.uid)) || (auth.uid === $chat_id) || root.child('users').child(auth.uid).child('role').val() === 'administrator'",
+        "messages": {
+          ".read": "root.child('chats').child($chat_id).child('participants').hasChild(auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator'",
+          ".write": "root.child('chats').child($chat_id).child('participants').hasChild(auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+        },
+        "lastMessage": {
+          ".read": "root.child('chats').child($chat_id).child('participants').hasChild(auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator'",
+          ".write": "root.child('chats').child($chat_id).child('participants').hasChild(auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+        },
+        "participants": {
+          ".read": "data.hasChild(auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator'",
+          ".write": "(!data.exists() && newData.hasChild(auth.uid)) || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+        },
+        "unread": {
+          ".read": "root.child('chats').child($chat_id).child('participants').hasChild(auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator'",
+          ".write": "root.child('chats').child($chat_id).child('participants').hasChild(auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+        },
+        "$room_sub_id": {
+          ".read": "root.child('chats').child($chat_id).child('participants').hasChild(auth.uid) || auth.uid === $chat_id || root.child('users').child(auth.uid).child('role').val() === 'administrator'",
+          ".write": "auth.uid === $chat_id || root.child('users').child(auth.uid).child('role').val() === 'administrator' || root.child('chats').child($room_sub_id).child('participants').hasChild(auth.uid)",
+          "lastMessage": {
+            ".write": "root.child('chats').child($room_sub_id).child('participants').hasChild(auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+          },
+          "unread": {
+            ".write": "root.child('chats').child($room_sub_id).child('participants').hasChild(auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+          }
+        }
+      }
+    },
+    "user_chats": {
+      "$uid": {
+        ".read": "auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'administrator'",
+        "$chat_id": {
+          ".read": "auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'administrator'",
+          ".write": "root.child('chats').child($chat_id).child('participants').hasChild(auth.uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+        }
+      }
+    },
+    "locations": {
+      "$uid": {
+        ".read": "auth != null && (auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'patient' || root.child('users').child(auth.uid).child('role').val() === 'POA' || root.child('users').child(auth.uid).child('assignedPatients').hasChild($uid) || root.child('users').child(auth.uid).child('role').val() === 'administrator')",
+        ".write": "auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+      }
+    },
+    "status": {
+      "$uid": {
+        ".read": "auth != null",
+        ".write": "auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+      }
+    },
+    "presence": {
+      "$uid": {
+        ".read": "auth != null",
+        ".write": "auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+      }
+    },
+    "users": {
+      "$uid": {
+        ".read": "auth != null",
+        ".write": "auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'administrator'"
+      }
+    },
+    ".read": false,
+    ".write": false
+  }
+}

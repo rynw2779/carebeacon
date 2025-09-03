@@ -1,0 +1,59 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth.uid == userId;
+      allow update: if request.auth.uid == userId
+        || get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'administrator'
+        || (true // Temporary: Replace isStaff with true to test
+            && isNonStaff()
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['assignedStaff'])
+            && validatesAssignedStaffUpdate(request.auth.uid));
+      allow delete: if false;
+    }
+   
+    match /visits/{visitId} {
+      allow read: if request.auth != null;
+     
+      allow create: if request.auth != null &&
+        isStaff(request.auth.uid) &&
+        (isAdmin(request.auth.uid) ||
+         (request.resource.data.get('staffId', '') == request.auth.uid &&
+          request.resource.data.get('patientId', '') in get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('assignedPatients', [])));
+     
+      allow update: if request.auth != null &&
+        isStaff(request.auth.uid) &&
+        resource.data.get('staffId', '') == request.auth.uid &&
+        (isAdmin(request.auth.uid) ||
+         request.resource.data.get('patientId', '') in get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('assignedPatients', []));
+     
+      allow delete: if request.auth != null &&
+        isStaff(request.auth.uid) &&
+        resource.data.get('staffId', '') == request.auth.uid;
+    }
+   
+    // Add other collections if needed, e.g., for assignments if separate
+    match /{document=**} {
+      allow read, write: if false; // Deny all others by default
+    }
+  }
+ 
+  // Helper functions
+  function isStaff(uid) {
+    return get(/databases/$(database)/documents/users/$(uid)).data.role in ['administrator', 'nurse', 'aide', 'MSW', 'chaplain'];
+  }
+  function isAdmin(uid) {
+    return get(/databases/$(database)/documents/users/$(uid)).data.role == 'administrator';
+  }
+  function isNonStaff() {
+    return resource.data.role in ['patient', 'POA'];
+  }
+  function validatesAssignedStaffUpdate(staffUid) {
+    let oldAssigned = resource.data.get('assignedStaff', []);
+    let newAssigned = request.resource.data.get('assignedStaff', []);
+    return newAssigned.size() == oldAssigned.size() + 1
+      && newAssigned.hasAll(oldAssigned)
+      && newAssigned.hasAny([staffUid]);
+  }
+}
